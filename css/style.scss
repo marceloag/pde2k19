@@ -1,4 +1,112 @@
-h1{
-    color: red;
-    font-size: 2em;
+
+*{
+  font-family: 'Barlow Condensed';
+  font-weight: 500;
+}
+
+body{
+  height: 100%;
+}
+.full {
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100% !important;
+}
+.slider{
+  position: relative;
+}
+.over{
+  position: absolute;
+  top: 1em;
+  z-index: 99;
+    padding: 0 2em;
+}
+
+.restoftheworld{
+  padding: 2em 2em 4em 2em;
+}
+
+.mainmenu{
+  li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding: 1em .8em;
+  }
+}
+
+.overmask{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(black,.8);
+  z-index: 95;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Oswald' !important;
+  font-weight: 700;
+}
+
+.caption{
+  top:35%;
+  color: white;
+  // padding: 1em;
+  h1, h2, h3{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  h1{
+    color: white;
+    font-size: 7em;
+    -webkit-mask-size: contain;
+    -webkit-mask-image: url("../img/textura.jpg");
+    -o-mask-image:url("../img/textura.jpg");
+    -moz-mask-image:url("../img/textura.jpg");
+    -ms-mask-image:url("../img/textura.jpg");
+    mask-image: url("../img/textura.jpg");
+    line-height: 95%;
+    margin-bottom: 1em;
+  }
+  h2{
+    font-family: 'Barlow' !important;
+    text-transform: uppercase;
+  }
+  h3{
+    font-family: 'Barlow' !important;
+    text-transform: uppercase;
+  }
+  .boton{
+    width: fit-content;
+    color: white;
+    margin-top: 1em;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 3px solid white;
+    padding: .6em;
+  }
+}
+
+.restoftheworld{
+  padding: 2em;
+  background: url("../img/resto.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  p{
+    text-align: justify;
+  }
+}
+
+footer{
+  background: url("../img/footer.jpg");
+  background-size: cover;
+  padding: 2em;
+  p{
+    color: white;
+    font-family: 'Barlow Condensed';
+  }
 }
