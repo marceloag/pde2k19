@@ -460,5 +460,10 @@ ul.dropdown{
     a{
       color: $naranjo !important;
     }
+    &:hover{
+      a{
+        color: white;
+      }
+    }
   }
 }
