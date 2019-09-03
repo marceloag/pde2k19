@@ -3,38 +3,73 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>PDE</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,700&|Oswald:600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,500,700&|Oswald:300,600,700&display=swap" rel="stylesheet">
     <script src="js/vendor/modernizr.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
 
     <div class="overmask"></div>
 
   <div class="row full slider">
-    <div class="over row full">
-        <div class="large-2 columns">
+    <div class="over row full navbar">
+        <div class="large-2 medium-2 small-3 columns">
             <img src="img/logo.svg">
         </div>
-        <div class="large-10 columns">
-            <ul class="mainmenu right">
-                <li><a href="#">Item</a></li>
-                <li>Item</li>
-                <li>Item</li>
-                <li>Item</li>
-                <li>Item</li>
-                <li>Item</li>
-                <li>Item</li>
+        <div class="large-10 medium-10 small-9 columns">
+          <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+              <li class="name">
+                <h1><a href="#"></a></h1>
+              </li>
+               <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+              <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
             </ul>
+            <section class="top-bar-section">
+              <ul class="right">
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="#">El Estrecho</a></li>
+                <li class="has-dropdown">
+                  <a href="#">El Parque</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Un Lugar Especial</a></li>
+                    <li><a href="#">Área Protegida</a></li>
+                    <li><a href="">Administración</a></li>
+                  </ul>
+                </li>
+                <li class="has-dropdown">
+                  <a href="#">Visita</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Mapa</a></li>
+                    <li><a href="#">Horario</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Descargas</a></li>
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Eng.</a></li>
+
+              </ul>
+            </section>
+          </nav>
+            <!-- <ul class="mainmenu right">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="">El Estrecho</a></li>
+                <li><a href="">El Parque</a></li>
+                <li><a href="">Visita</a></li>
+                <li><a href="">Descargas</a></li>
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Eng.</a></li>
+            </ul> -->
         </div>
     </div>
-
-    <ul class="example-orbit" data-orbit data-options="bullets:false; animation:fade">
+    <div class="grad"></div>
+    <ul class="homeorbit" data-orbit data-options="bullets:false; animation:fade; slide_number:false; pause_on_hover:false;navigation_arrows:false">
       <li>
-        <img src="http://placehold.it/1400x768/A92B48/A92B48" alt="slide 1" />
-          <div class="caption">
+        <img src="img/slide01.jpg" alt="slide 1" />
+          <div class="captioncontainer">
             <div class="grid-y grid-padding-y caption over align-left">
                       <h1>DESCUBRE</h1>
                       <h2>El Parque del Estrecho</h2>
@@ -43,63 +78,130 @@
                   </div>
           </div>
       </li>
-      <li>
-        <img src="http://placehold.it/1400x768/EE964D/EE964D" alt="slide 2" />
-        <div class="caption">
-          <div class="grid-y grid-padding-y caption over align-left">
-                      <h1>DESCUBRE</h1>
-                      <h2>El Parque del Estrecho</h2>
-                      <h3>Temporada 2019/20</h3>
-                      <a href="" class="boton">Conoce Más</a>
-                  </div>
-        </div>
-      </li>
-      <li>
-        <img src="http://placehold.it/1400x768/FDC43D/FDC43D" alt="slide 3" />
-      <div class="caption">
-        <div class="grid-y grid-padding-y caption over align-left">
-                      <h1>DESCUBRE</h1>
-                      <h2>El Parque del Estrecho</h2>
-                      <h3>Temporada 2019/20</h3>
-                      <a href="" class="boton">Conoce Más</a>
-                  </div>
-      </div>
-      </li>
     </ul>
   </div>
 
   <section class="restoftheworld">
       <div class="row full unlugarespecial">
-        <div class="large-7 columns">
+        <div class="large-12 columns">
           <h2>Bienvenidos a un lugar especial</h2>
+          <div class="desc">
             <p>El PARQUE DEL ESTRECHO DE MAGALLANES representa 100 años de esfuerzo local de conservacióndel patrimonio natural y cultural por parte de diversas generaciones de habitantes del Estrecho.</p>
 
             <p>Se emplaza sobre una península angosta y rocosa de casi 4 kilómetros de extensión llamada PuntaSanta Ana.</p>
+
+            <p>Sus 250 hectáreas contienen 2 Monumentos Históricos Nacionales (MHN) y sitios arqueológicos que señalan la presencia humana desde hace miles de años.</p>
+
+            <a href="#" class="boton">El Estrecho</a>
+          </div>
+        </div>
+        <div class="large-12 small-12 columns mapa">
+          <img src="img/mapa_v2.png" alt="">
+        </div>
+        <!-- <div class="large-5 columns">
+          <h2>Bienvenidos a un lugar especial</h2>
+
+            <p>El PARQUE DEL ESTRECHO DE MAGALLANES representa 100 años de esfuerzo local de conservacióndel patrimonio natural y cultural por parte de diversas generaciones de habitantes del Estrecho.</p>
+
+            <p>Se emplaza sobre una península angosta y rocosa de casi 4 kilómetros de extensión llamada PuntaSanta Ana.</p>
+
+            <p>Sus 250 hectáreas contienen 2 Monumentos Históricos Nacionales (MHN) y sitios arqueológicos que señalan la presencia humana desde hace miles de años.</p>
+
             <a href="#" class="boton">El Estrecho</a>
         </div>
-        <div class="large-5 columns">
-          <img src="http://fakeimg.pl/350x400/00CED1/FFF/?text=img+placeholder">
-        </div>
+        <div class="large-7 columns text-center">
+          <img src="img/mapa.png">
+        </div> -->
 
       </div>
 
       <div class="row full laexperiencia">
-        <h2>La Experiencia</h2>
-        <ul class="large-block-grid-3">
-            <li><img src="http://fakeimg.pl/450x350/000000/000/?text=img+placeholder"></li>
-            <li><img src="http://fakeimg.pl/450x350/000000/000/?text=img+placeholder"></li>
-            <li><img src="http://fakeimg.pl/450x350/000000/000/?text=img+placeholder"></li>
+        <h3>La Experiencia</h3>
+        <ul class="large-block-grid-3 experiencia">
+            <li>
+              <div class="wrap">
+                <div class="overexp">
+                  <img src="img/lugares.png" alt="">
+                  <span>Lugares</span>
+                </div>
+                <img src="img/lugares.jpg">
+              </div>
+            </li>
+            <li>
+              <div class="wrap">
+                <div class="overexp">
+                  <img src="img/recorridos.png" alt="">
+                  <span>Recorridos</span>
+                </div>
+                <img src="img/recorridos.jpg">
+              </div>
+            </li>
+            <li>
+              <div class="wrap">
+                <div class="overexp">
+                  <img src="img/servicios.png" alt="">
+                  <span>Servicios</span>
+                </div>
+                <img src="img/servicios.jpg">
+              </div>
+            </li>
         </ul>
       </div>
 
       <div class="row full noticias">
-        <h2>Noticias</h2>
+        <h3>Noticias</h3>
         <ul class="large-block-grid-4">
-            <li><img src="http://fakeimg.pl/350x280/000000/000/?text=img+placeholder"></li>
-            <li><img src="http://fakeimg.pl/350x280/000000/000/?text=img+placeholder"></li>
-            <li><img src="http://fakeimg.pl/350x280/000000/000/?text=img+placeholder"></li>
-            <li><img src="http://fakeimg.pl/350x280/000000/000/?text=img+placeholder"></li>
+            <li>
+              <div class="noticia">
+                <div class="featimg">
+                    <img src="img/noticia.jpg">
+                    <div class="fecha">28 de Septiembre de 2019</div>
+                </div>
+                <div class="texto">
+                  <h2>Comienzo de temporada</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="noticia">
+                <div class="featimg">
+                    <img src="img/noticia.jpg">
+                    <div class="fecha">28 de Septiembre de 2019</div>
+                </div>
+                <div class="texto">
+                  <h2>Comienzo de temporada</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="noticia">
+                <div class="featimg">
+                    <img src="img/noticia.jpg">
+                    <div class="fecha">28 de Septiembre de 2019</div>
+                </div>
+                <div class="texto">
+                  <h2>Comienzo de temporada</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="noticia">
+                <div class="featimg">
+                    <img src="img/noticia.jpg">
+                    <div class="fecha">28 de Septiembre de 2019</div>
+                </div>
+                <div class="texto">
+                  <h2>Comienzo de temporada</h2>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                </div>
+              </div>
+            </li>
         </ul>
+
+        <a href="#" class="boton">Más Noticias</a>
       </div>
   </section>
 
@@ -114,10 +216,12 @@
           <div class="rss">
               <div class="large-8 columns large-centered">
                   <i class="fa fa-facebook"></i>
+                  <i class="fa fa-tripadvisor"></i>
+                  <i class="fa fa-instagram"></i>
               </div>
           </div>
-          <p>Oficina en Punta Arenas</p>
-          <p>21 de Mayo #1261  +5661272395 info@delestrecho.cl</p>
+          <p>Oficina en Punta Arenas<br>
+            21 de Mayo #1261  +5661272395 info@delestrecho.cl</p>
 
         </div>
         <div class="large-2 columns text-center">

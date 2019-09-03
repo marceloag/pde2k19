@@ -1,11 +1,14 @@
-$('.mainmenu li a').hover(
+$('.has-dropdown').hover(
   function(){
+    // $('.navbar').css("background-color","white");
     $('.overmask').show();
   }, function(){
+    // $('.navbar').css("background-color","transparent");
     $('.overmask').hide();
   }
 
 )
+
 
 $(document).ready(function(){
 
